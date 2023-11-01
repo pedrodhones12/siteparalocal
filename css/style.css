@@ -6,6 +6,21 @@
     --bg:#010103;
     --border:.1rem solid rgba(255,255,255,.3);
 }
+/* Estilos para telas pequenas, como celulares */
+@media (max-width: 768px) {
+    /* Adicione estilos aqui, como ajustar tamanhos de fonte, margens, etc. */
+}
+
+/* Estilos para telas médias, como tablets */
+@media (max-width: 1024px) {
+    /* Adicione estilos aqui, se necessário */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
 *{
     font-family: 'Roboto', sans-serif;
